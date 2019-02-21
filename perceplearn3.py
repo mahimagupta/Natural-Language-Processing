@@ -6,7 +6,7 @@ import math
 import json
 import re
 
-
+from collections import Counter 
 wordcount ={}
 
 files = glob.glob(os.path.join(sys.argv[1], '*/*/*/*.txt'))
